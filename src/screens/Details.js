@@ -1,11 +1,12 @@
-import React from 'react'
-import { View, Text } from 'react-native';
+import React from 'react';
+import { View, Text, FlatList, SafeAreaView } from 'react-native';
+import {COLORS, NFTFata} from '../../constants';
 
 const Details = () => {
     return (
-    <View>
+    <SafeAreaView style={{flex:1}}>
         <Text>Details.</Text>
-    </View>
+    </SafeAreaView>
   )
 }
 
