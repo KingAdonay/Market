@@ -40,7 +40,7 @@ export const RectButton = ({minWidth, fontSize, handlePress, ...props}) => {
                 fontSize: fontSize,
                 color: COLORS.white,
                 textAlign: 'center'
-            }}>Place a bifd</Text>
+            }}>Place a bid</Text>
         </TouchableOpacity>
     )
 }
